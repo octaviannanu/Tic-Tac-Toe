@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X & 0 by NOI</title>
+    <link href="X0.css" rel="stylesheet">
+    <script src="X0.js"></script>
+</head>
+<body>
+    <h1 style="color: rgb(237, 242, 241); text-align: center;">WELLCOME TO X & 0 GAME</h1><br>
+    <h3 style="color: rgb(237, 242, 241); text-align: center;">Player 1 will play with "X" and player 2 will play with "0"</h3>
+    <h3 style="color: rgb(237, 242, 241); text-align: center;">Players will place X or 0 on the grid.<br>The player who completes a row, column or diagonal first wins.</h3>
+    <div class="again">
+        <button id="play" onclick="playAgain()">START GAME</button>
+    </div><br><br>
+    <div class="container">
+        <div class="center">
+            <button id="1" onclick="choice(1); verify();"></button><button id="2" onclick="choice(2); verify();"></button><button id="3" onclick="choice(3); verify();"></button><br>
+            <button id="4" onclick="choice(4); verify();"></button><button id="5" onclick="choice(5); verify();"></button><button id="6" onclick="choice(6); verify();"></button><br>
+            <button id="7" onclick="choice(7); verify();"></button><button id="8" onclick="choice(8); verify();"></button><button id="9" onclick="choice(9); verify();"></button><br>
+        </div>
+    </div><br>
+    <h3 id="message" style="color: rgb(143, 6, 22); text-align: center;"></h3>
+    <h1 id="winner" style="color: rgb(237, 242, 241); text-align: center;"></h1>
+</body>
+</html>

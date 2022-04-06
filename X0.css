@@ -1,0 +1,35 @@
+html {
+  background-image: url("https://happymax.ro/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/3/4/34_1_5.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+  button {
+    align-items: center;
+    border-radius: 8px;
+    background-color: #0fd8e2; /* Green */
+    border: 5px;
+    color: rgb(29, 27, 27);
+    padding: 30px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin:10px;
+  }
+
+  .container {
+    height: 200px;
+    position: relative;
+  }
+  
+  .again {
+    text-align: center;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
